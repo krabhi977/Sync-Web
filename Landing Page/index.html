@@ -1,0 +1,267 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- css bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>UseBOOK</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container-fluid outer">
+      <!---header top [LOGO]----->
+      <div class="row">
+        <div class="col-sm-12 theader">
+          <p class="text-center">Use<b class="lg">BOOK</b></p>
+        </div>
+      </div>
+      <!-------Logo close-------------------->
+
+      <!-----navigation--------------->
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <nav id="menu" class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item me-5">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link active" href="#">Fiction</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link active" href="#">Non-Fiction</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link active" href="#">Novels</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link active" href="#">Self-Help</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link active dropdown-toggle"
+                      href="#"
+                      id="navbarDropdownMenuLink"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Others
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenuLink"
+                    >
+                      <li>
+                        <a class="dropdown-item" href="#">Engineering Book</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Medical Book</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Academics Book</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--------------->
+        </div>
+        <!---nav-->
+        <div class="col-sm-2 fw-bold card-body">
+          <nav class="navbar navbar-expand-lg bg-white">
+            <a class="nav-link active" href="#"
+              ><i class="fa-solid fa-cart-plus fs-4 me-4"></i
+            ></a>
+            <ul class="navbar-nav">
+              <li class="nav-item me-4 bg-warning border rounded-2">
+                <a class="nav-link active" href="#">SELL</a>
+              </li>
+            </ul>
+            <a class="nav-link active" href="#"
+              ><i class="fa-solid fa-user fs-4"></i
+            ></a>
+          </nav>
+        </div>
+      </div>
+      <!--- ----row end-->
+
+      <!----------end------>
+      <!-- start slider-->
+      <div class="row slider">
+        <div class="col-sm-12 shadow-lg">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/book.jpg" class="d-block w-100 sh" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/book1.jpg" class="d-block w-100 sh" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/book2.jpg" class="d-block w-100 sh" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- end slider-->
+
+      <!-- store -->
+
+      <div class="row services py-4">
+        <div class="col-sm-12">
+          <p class="text-center fs-3">
+            WHAT'S IN <b class="mytxtclr">STORE</b> FOR YOU ?
+            <i class="fa-sharp fa-solid fa-book"></i>
+          </p>
+          <div class="row">
+            <div class="col-sm-4 px-5">
+              <div class="card w-100">
+                <img
+                  src="img/atomic.jpg"
+                  class="card-img-top"
+                  height="450px"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Atomic Habits</h5>
+                  <p class="card-text">
+                    "Atomic Habits: An Easy & Proven Way to Build Good Habits &
+                    Break Bad Ones" is a self-help book written by James Clear.
+                    The book was published in 2018 and has since become a
+                    popular guide for those looking to build positive habits and
+                    break negative ones. Tiny changes can grow you as far you
+                    can.
+                  </p>
+                  <a href="#" class="btn btn-dark mybox">Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 px-5">
+              <div class="card w-100">
+                <img
+                  src="img/yogi.jpg"
+                  class="card-img-top"
+                  height="450px"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Autobiography of Yogi</h5>
+                  <p class="card-text">
+                    "The Autobiography of a Yogi" is a spiritual classic written
+                    by Paramhansa Yogananda, a renowned Indian yogi and mystic
+                    who brought the teachings of yoga and meditation to the
+                    West. First published in 1946, the book has been translated
+                    into more than 20 languages and remains one of the most
+                    popular works on yoga and spirituality.
+                  </p>
+
+                  <p>
+                    <a href="#" class="btn btn-dark mybox">Buy Now</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 px-5">
+              <div class="card w-100">
+                <img
+                  src="img/ikigai.jpg"
+                  class="card-img-top"
+                  height="450px"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Ikigai</h5>
+                  <p class="card-text">
+                    "Ikigai: The Japanese Secret to a Long and Happy Life" is a
+                    self-help book co-written by Hector García and Francesc
+                    Miralles. The book was published in 2017 and explores the
+                    concept of ikigai, which is a Japanese term that refers to
+                    one's reason for being or sense of purpose in life..
+                  </p>
+                  <a href="#" class="btn btn-dark mybox">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of services -->
+
+      <!-- Footer -->
+      <div class="row footer">
+        <div class="col-sm-12 mt-2 fs-3">
+          <i class="fa-brands ps-4 pt-4 fa-facebook"></i>
+          <i class="fa-brands ps-4 fa-twitter"></i>
+          <i class="fa-solid ps-4 fa-envelope"></i>
+          <i class="fa-brands ps-4 fa-youtube"></i>
+          <i class="fa-brands ps-4 fa-instagram"></i>
+          <i class="fa-brands ps-4 fa-whatsapp"></i>
+          <i class="fa-brands ps-4 fa-snapchat"></i>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <div class="col-sm-12">
+          <div class="card-footer text-white mt-4">
+            <h5 class="card-title">&copy; 2023 useBook.com</h5>
+            <p class="card-text">Country India</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- end footer -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

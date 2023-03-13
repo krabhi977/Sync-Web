@@ -1,0 +1,46 @@
+.outer {
+    min-height: 800px;
+  }
+/* header */
+  .theader {
+    height: 55px;
+    font-family: impact;
+    font-size: 45px;
+  }
+  .lg {
+    color: #ed642b;
+  }
+/* navbar */
+  #menu {
+    margin: 0px 12%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .navbar li a:hover {
+    background: #ffc107;
+    border-radius: 12px;
+  }
+
+  .sh {
+    max-height: 500px;
+  }
+
+/* sevices */
+  .services {
+    min-height: 300px;
+  }
+
+  .mybox {
+    text-align: center;
+    margin-left: 37%;
+    color: white;
+  }
+
+  /* footer */
+  .footer {
+    min-height: 90px;
+    background: black;
+    color: white;
+    text-align: center;
+  }
